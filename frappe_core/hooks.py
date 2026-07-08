@@ -86,7 +86,7 @@ app_license = "mit"
 # ------------
 
 # before_install = "frappe_core.install.before_install"
-# after_install = "frappe_core.install.after_install"
+after_install = "frappe_core.install.after_install"
 
 # Uninstallation
 # ------------
@@ -251,7 +251,7 @@ app_license = "mit"
 # ignore_translatable_strings_from = []
 
 override_doctype_class = {
-    "File": "frappe_core.doctype.file.file._File"
+    "File": "frappe_core.frappe_core.doctype.file.file._File"
 }
 
 fixtures = [
