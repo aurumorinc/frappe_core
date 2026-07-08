@@ -1,0 +1,15 @@
+[
+ {
+  "dt": "File",
+  "doctype": "Custom Field",
+  "fieldname": "presigned_url",
+  "fieldtype": "Data",
+  "insert_after": "file_url",
+  "is_system_generated": 0,
+  "is_virtual": 1,
+  "label": "Presigned URL",
+  "name": "File-presigned_url",
+  "read_only": 1,
+  "translatable": 0
+ }
+]
